@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Array Merge</title>
+    <script>
+      let data1 = [1, 2, 3, 4, 5];
+      let data2 = [6, 7, 8, 9, 10,11,12];
+      let data3 = [];
+      for (let i = 0; i < data1.length; i++) {
+        data3[i] = data1[i];
+       
+      }
+      for (let j = 0; j < data2.length; j++) {
+        data3[data1.length+j] = data2[j];
+      }
+     
+      console.log('====================================');
+      console.log(data3);
+      console.log('====================================');
+    </script>
+  </head>
+
+  <body></body>
+</html>
